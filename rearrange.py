@@ -1,3 +1,4 @@
+
 def Rearrange(ar, n):
     i = 0
     j = n-1
@@ -14,6 +15,7 @@ def Rearrange(ar, n):
 
 for _ in range(int(input())):
     n = int(input())
+
     ar = list(map(int, input().split()))
     Rearrange(ar, n)
     print("")
